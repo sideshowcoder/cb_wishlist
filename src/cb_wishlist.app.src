@@ -1,0 +1,12 @@
+{application, cb_wishlist,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { cb_wishlist_app, []}},
+  {env, []}
+ ]}.
