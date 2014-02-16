@@ -1,0 +1,2 @@
+-define(CB_POOL, cberl_default).
+-define(ELEMENTS_PER_PAGE, 5).

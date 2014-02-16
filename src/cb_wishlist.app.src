@@ -5,8 +5,13 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  cowboy
                  ]},
   {mod, { cb_wishlist_app, []}},
-  {env, []}
+  {env, [
+         {http_port, 3000},
+         {couchbase_server, "localhost"},
+         {couchbase_bucket, "cb_wishlist"}
+        ]}
  ]}.
